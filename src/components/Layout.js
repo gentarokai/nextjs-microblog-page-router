@@ -14,7 +14,7 @@ function Layout({ children }) {
       </Head>
       <header className={styles.header}>
         <img
-          src="images/profile.png"
+          src="/images/profile.png"
           alt="Your Name"
           className={utilStyles.borderCircle}
         />

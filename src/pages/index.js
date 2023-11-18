@@ -16,11 +16,11 @@ export async function getStaticProps() {
   };
 }
 // SSRの場合 getServerSidePropsを追加する(リクエストごとにデータを取得する)
-export async function getServerSideProps(context) {
-  return {
-    props: {}, // 更新が頻繁なページではSSGよりSSRの方が良い
-  };
-}
+// export async function getServerSideProps(context) {
+//   return {
+//     props: {}, // 更新が頻繁なページではSSGよりSSRの方が良い
+//   };
+// }
 
 export default function Home({ allPostsData }) {
   return (
